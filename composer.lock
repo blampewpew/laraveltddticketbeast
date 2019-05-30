@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "aa61d5762f0cbc8027e79c0b940a6b7d",
-    "content-hash": "50e4deb4c8728b5460bf609f167ef2b2",
+    "content-hash": "a62f0b4c18ab15118bf3f75309745869",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -750,16 +749,16 @@
         },
         {
             "name": "nothingworks/blade-svg",
-            "version": "v0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/adamwathan/blade-svg.git",
-                "reference": "0002112f8ccd79b23451958e9e5a3fa03585a035"
+                "reference": "3ec8f970a4145350bd99cb021b1ea8a1833647ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/adamwathan/blade-svg/zipball/0002112f8ccd79b23451958e9e5a3fa03585a035",
-                "reference": "0002112f8ccd79b23451958e9e5a3fa03585a035",
+                "url": "https://api.github.com/repos/adamwathan/blade-svg/zipball/3ec8f970a4145350bd99cb021b1ea8a1833647ce",
+                "reference": "3ec8f970a4145350bd99cb021b1ea8a1833647ce",
                 "shasum": ""
             },
             "require": {
@@ -789,7 +788,7 @@
                     "email": "adam.wathan@gmail.com"
                 }
             ],
-            "time": "2016-09-05 14:37:45"
+            "time": "2017-04-29T15:27:41+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -1985,29 +1984,33 @@
                 "env",
                 "environment"
             ],
-<<<<<<< HEAD
             "time": "2019-01-29T11:11:52+00:00"
-=======
-            "time": "2016-09-01 10:05:43"
         },
         {
             "name": "zondicons/blade-bridge",
-            "version": "v0.1.0",
+            "version": "v0.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dukestreetstudio/zondicons-blade-bridge.git",
-                "reference": "895e43b450b5d83df8410d57febcba95a58f95df"
+                "reference": "2569ef01c1324301e07de1d02bba44e902edc473"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dukestreetstudio/zondicons-blade-bridge/zipball/895e43b450b5d83df8410d57febcba95a58f95df",
-                "reference": "895e43b450b5d83df8410d57febcba95a58f95df",
+                "url": "https://api.github.com/repos/dukestreetstudio/zondicons-blade-bridge/zipball/2569ef01c1324301e07de1d02bba44e902edc473",
+                "reference": "2569ef01c1324301e07de1d02bba44e902edc473",
                 "shasum": ""
             },
             "require": {
                 "nothingworks/blade-svg": "^0.1.0"
             },
             "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Zondicons\\ZondiconsServiceProvider"
+                    ]
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Zondicons\\": "src/"
@@ -2028,8 +2031,8 @@
                     "email": "sm.schoger@gmail.com"
                 }
             ],
-            "time": "2016-10-14 20:16:43"
->>>>>>> ced0532... (front end prep for Purchasing Tickets module)
+            "description": "Easily integrate the Zondicons icon set into your Laravel applications.",
+            "time": "2017-12-06T20:31:56+00:00"
         }
     ],
     "packages-dev": [
